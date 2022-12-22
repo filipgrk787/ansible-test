@@ -1,0 +1,6 @@
+---
+ - name: "Ping Win Hosts"
+   hosts: 10.147.56.24
+   tasks:
+    - name: "Ping Win Host"
+      win_ping:
