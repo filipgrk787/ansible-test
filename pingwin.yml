@@ -4,3 +4,4 @@
    tasks:
     - name: "Ping Win Host"
         ansible.netcommon.net_ping:
+        dest: 10.147.56.24
