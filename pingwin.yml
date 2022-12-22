@@ -1,6 +1,6 @@
 ---
  - name: "Ping Win Hosts"
-   hosts: 10.147.56.24
+   hosts: ATH-DEV-VMS
    tasks:
     - name: "Ping Win Host"
-      ping:
+        ansible.netcommon.net_ping:
